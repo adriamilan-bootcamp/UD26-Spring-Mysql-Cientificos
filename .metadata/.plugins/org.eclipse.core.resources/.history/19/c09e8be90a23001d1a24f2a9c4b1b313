@@ -1,0 +1,21 @@
+package com.adriamilan.cientificos.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.adriamilan.cientificos.service.ProyectoServiceImpl;
+
+@RestController
+@RequestMapping("/api")
+public class ProyectoController {
+
+	@Autowired
+	ProyectoServiceImpl proyectoserv;
+	
+	@GetMapping("/proyectos")
+	public List<Proyecto> listProyectos() {
+		return proyectoserv.listProyectos();
+	}
+	
+}

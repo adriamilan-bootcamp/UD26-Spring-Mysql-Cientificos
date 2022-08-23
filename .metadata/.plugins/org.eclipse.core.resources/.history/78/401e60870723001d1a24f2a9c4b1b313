@@ -1,0 +1,15 @@
+package com.adriamilan.cientificos.service;
+
+public interface ICientificoService {
+
+	public List<Cientifico> listCientificos();
+	
+	public Cientifico cientificoXID(Long id);
+	
+	public Cientifico saveCientifico(Cientifico cientifico);
+	
+	public Cientifico editCientifico(Cientifico cientifico);
+	
+	public String deleteCientifico(Long id);
+	
+}

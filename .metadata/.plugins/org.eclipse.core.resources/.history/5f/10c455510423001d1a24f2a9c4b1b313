@@ -1,0 +1,7 @@
+package com.adriamilan.cientificos.dto;
+
+@Entity
+@Table(name = "fabricantes")
+public class Cientifico {
+
+}

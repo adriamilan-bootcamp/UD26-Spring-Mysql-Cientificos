@@ -1,0 +1,10 @@
+package com.adriamilan.cientificos.controller;
+
+@RestController
+@RequestMapping("/api")
+public class ProyectoController {
+
+	@Autowired
+	ProyectoServiceImpl proyectoserv;
+	
+}

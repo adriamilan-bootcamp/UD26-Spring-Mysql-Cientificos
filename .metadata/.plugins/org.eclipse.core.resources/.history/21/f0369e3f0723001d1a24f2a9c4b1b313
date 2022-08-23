@@ -1,0 +1,7 @@
+package com.adriamilan.cientificos.service;
+
+public interface IAsignadoService {
+
+	public List<Asignado> listAsignado();
+	
+}

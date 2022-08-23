@@ -1,0 +1,9 @@
+package com.adriamilan.cientificos.dto;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table(name="proyectos")
+public class Proyecto {
+
+}

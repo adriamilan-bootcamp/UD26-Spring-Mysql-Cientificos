@@ -1,0 +1,7 @@
+package com.adriamilan.cientificos.controller;
+
+@RestController
+@RequestMapping("/api")
+public class CientificoController {
+
+}

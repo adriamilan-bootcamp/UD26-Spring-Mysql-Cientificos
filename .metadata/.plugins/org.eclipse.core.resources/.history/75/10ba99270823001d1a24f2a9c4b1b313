@@ -1,0 +1,11 @@
+package com.adriamilan.cientificos.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class CientificoServiceImpl implements ICientificoService {
+
+	@Autowired
+	ICientificoDAO cientificodao;
+	
+}

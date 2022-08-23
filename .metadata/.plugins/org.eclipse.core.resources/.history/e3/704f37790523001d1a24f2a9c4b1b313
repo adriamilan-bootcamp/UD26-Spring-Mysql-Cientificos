@@ -1,0 +1,17 @@
+package com.adriamilan.cientificos.dto;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="proyectos")
+public class Proyecto {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Column(name="nombre")
+	private String nombre;
+	
+}

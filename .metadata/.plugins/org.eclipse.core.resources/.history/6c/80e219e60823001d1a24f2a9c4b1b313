@@ -1,0 +1,23 @@
+package com.adriamilan.cientificos.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api")
+public class CientificoController {
+
+	@Autowired
+	CientificoServiceImpl cientificoservl
+	
+	@GetMapping("/cientificos")
+	public List<Cientifico> listCientificos() {
+		
+	}
+	
+	@GetMapping("/cientifico/{id}")
+	public Cientifico cientificoXID(@PathVariable(name="id") Long id) {
+		ret
+	}
+	
+}

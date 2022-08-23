@@ -1,0 +1,10 @@
+package com.adriamilan.cientificos.dto;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Cientificos")
+public class Cientifico {
+
+}

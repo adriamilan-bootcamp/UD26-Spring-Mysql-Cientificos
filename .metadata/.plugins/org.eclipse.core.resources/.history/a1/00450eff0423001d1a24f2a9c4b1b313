@@ -1,0 +1,9 @@
+package com.adriamilan.cientificos.dto;
+
+@Entity
+@Table(name="cientificos_asignados_proyecto")
+public class Asignado {
+
+	
+	
+}

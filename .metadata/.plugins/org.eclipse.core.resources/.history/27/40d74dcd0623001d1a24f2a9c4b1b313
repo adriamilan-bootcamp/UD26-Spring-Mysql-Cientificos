@@ -1,0 +1,6 @@
+package com.adriamilan.cientificos.service;
+
+@Service
+public class ProyectoServiceImpl {
+
+}
